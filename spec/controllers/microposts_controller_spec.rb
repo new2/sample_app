@@ -60,6 +60,7 @@ describe MicropostsController do
         post :create, :micropost => @attr
         flash[:success] =~ /micropost created/i
       end
+      
     end
   end
   
